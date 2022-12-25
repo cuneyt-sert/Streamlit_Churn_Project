@@ -82,7 +82,7 @@ CardProductRatio = hascrcard_1/numofproducts
 # Pickle kütüphanesi kullanarak eğitilen modelin tekrardan kullanılması
 from joblib import load
 
-logreg_model = load('/Users/Lenovo/Desktop/ISTDSA/DSAG22/proje3/streamlit/logreg1_model.pkl')
+logreg_model = load('logreg1_model.pkl')
 
 input_df = pd.DataFrame({
 
