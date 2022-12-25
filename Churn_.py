@@ -45,7 +45,7 @@ st.markdown("- **Is Active Member**: Refers to Whether or not the aktif customer
 
 
 # Pandasla veri setini okuyalım
-df = pd.read_csv('/Users/Lenovo/ChurnData.csv')
+df = pd.read_csv('ChurnData.csv')
 
 # Tablo Ekleme
 st.table(df.sample(10, random_state=42))
