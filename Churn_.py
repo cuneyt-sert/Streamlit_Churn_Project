@@ -45,7 +45,7 @@ st.markdown("- **Is Active Member**: Refers to Whether or not the aktif customer
 
 
 # Pandasla veri setini okuyalım
-df = pd.read_csv("/Users/Lenovo/desktop/ISTDSA/DSAG22/proje3/streamlit/ChurnData.csv")
+df = pd.read_csv("/Users/Lenovo/Desktop/ISTDSA/DSAG22/proje3/streamlit/ChurnData.csv")
 
 
 # Tablo Ekleme
