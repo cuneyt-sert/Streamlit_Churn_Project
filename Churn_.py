@@ -147,9 +147,5 @@ if st.sidebar.button("Submit"):
 
     st.table(results_df)
 
-    if pred == 0:
-        st.image("/Users/Lenovo/Desktop/ISTDSA/DSAG22/proje3/streamlit/mutlu_emoji.gif")
-    else:
-        st.image("/Users/Lenovo/Desktop/ISTDSA/DSAG22/proje3/streamlit/üzgün.gif")
 else:
     st.markdown("Please click the *Submit Button*!")
