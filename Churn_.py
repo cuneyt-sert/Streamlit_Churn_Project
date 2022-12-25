@@ -20,7 +20,7 @@ st.markdown("A Machine Learning Model That Can Predict Customers Who Will Leave 
 st.markdown("The aim is to predict whether a bank's customers leave the bank or not. If the Client has closed his/her bank account, he/she has left.")
 
 # Resim Ekleme
-st.image(":/Users/Lenovo/churn_image.png")
+st.image("/Users/Lenovo/churn_image.png")
 st.markdown("Finding a new customer is much more difficult and costly than retaining an existing customer.")
 st.markdown("For this reason, it is very important to anticipate customers that we are likely to lose.")
 st.markdown("This point shows the necessity of Churn Analysis expected from us.")
