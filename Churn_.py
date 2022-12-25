@@ -146,9 +146,9 @@ if st.sidebar.button("Submit"):
 
     st.table(results_df)
     if pred == 0:
-        st.image("/Users/Lenovo/Desktop/ISTDSA/DSAG22/proje3/streamlit/mutlu_emoji.gif")
+        st.markdown("![Alt Text](https://media.tenor.com/zYLgNC1sTJYAAAAM/freaking-out-emoji.gif)")
     else:
-        st.image("/Users/Lenovo/Desktop/ISTDSA/DSAG22/proje3/streamlit/üzgün.gif")
+        st.markdown("![Alt Text](https://media.tenor.com/GesAPqnW3n0AAAAC/mengsedih-3d-emoji.gif)")
 
     
 else:
