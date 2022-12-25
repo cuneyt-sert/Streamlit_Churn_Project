@@ -145,6 +145,10 @@ if st.sidebar.button("Submit"):
     results_df["Prediction"] = results_df["Prediction"].apply(lambda x: str(x).replace("1","Churn"))
 
     st.table(results_df)
+    if pred == 0:
+        st.image("/Users/Lenovo/Desktop/ISTDSA/DSAG22/proje3/streamlit/mutlu_emoji.gif")
+    else:
+        st.image("/Users/Lenovo/Desktop/ISTDSA/DSAG22/proje3/streamlit/üzgün.gif")
 
     
 else:
